@@ -4,7 +4,8 @@
   "description": "Example project allowing access to @manifoldco/ui source maps",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start-production": "webpack && http-server dist/"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.0",
     "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
