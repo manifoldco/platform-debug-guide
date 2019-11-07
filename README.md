@@ -20,7 +20,7 @@ The project in this repository uses Webpack to bundle the code and generate the 
 
 ### What's Missing From This Demo?
 
-For simplicity, this demo skips the security step. In a real world scenario, the source maps would probably be served by a server that requires an API key or an auth token. The local server that Manifold developers run would have this token, and would send it to the secure server with every request for a source map file.
+For simplicity, this demo skips the security step. In a real world scenario, the source maps would probably be served by a server that requires an API key or an auth token. The local server that Manifold developers run would have this token, and would send it to the secure server with every request for a source map file. Alternatively, Manifold developers could log into a service that allows them to download the source maps to their local machines.
 
 ## To Run This Project
 
