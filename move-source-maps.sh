@@ -1,0 +1,1 @@
+mv dist/*.map source-map-server/maps

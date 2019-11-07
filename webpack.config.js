@@ -27,6 +27,7 @@ module.exports = {
       inject: "head"
     }),
     new webpack.SourceMapDevToolPlugin({
+      publicPath: "http://localhost:5050/",
       filename: "[name].map"
     })
   ],

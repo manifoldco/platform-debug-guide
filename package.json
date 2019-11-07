@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start-production": "npm run build && http-server dist/"
+    "move-source-maps": "bash move-source-maps.sh",
+    "start-servers": "http-server -p 5050 source-map-server/maps & http-server dist",
+    "start-production": "npm run build && npm run move-source-maps && npm run start-servers"
   },
   "author": "",
   "license": "ISC",
